@@ -23,10 +23,10 @@
     "re-classnames"
   ],
   "bs-dependencies": [
+    "bs-fetch",
     "re-formality",
     "@glennsl/bs-json",
     "bs-webapi",
-    "bs-fetch",
     "reason-react"
   ],
   "refmt": 3
