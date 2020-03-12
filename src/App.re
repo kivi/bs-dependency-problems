@@ -59,8 +59,7 @@ function (j) { return JSON.parse(j).tid }
         Belt.Option.getWithDefault(ptud[1], "{}") |> 
         Utils.decodeURIComponent |>
           Utils.atob |>
-          Utils.parseTid |> 
-          Storage.setTid;
+          Utils.parseTid 
         clearModalAndAfterLoginHook();
         ();
       }

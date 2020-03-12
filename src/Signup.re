@@ -52,7 +52,6 @@ let make = () => {
             switch (decodedResponse.errors) {
             | None => 
                 Js.log2 ("ok ", decodedResponse.tid);
-                Storage.setTidOptional(decodedResponse.tid);
                 form.notifyOnSuccess(None);
                 resolve(());
             | Some(errors) => 
