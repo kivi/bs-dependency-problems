@@ -1,0 +1,33 @@
+{
+  "name": "react-hooks-template",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "bsc-flags": [
+    "-open Belt",
+    "-bs-g"
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": false,
+  "bs-dev-dependencies": [
+    "re-classnames"
+  ],
+  "bs-dependencies": [
+    "re-formality",
+    "@glennsl/bs-json",
+    "bs-webapi",
+    "bs-fetch",
+    "reason-react"
+  ],
+  "refmt": 3
+}
